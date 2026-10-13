@@ -1,0 +1,25 @@
+:root {
+  font-family: Georgia, 'Times New Roman', serif;
+  color: #1d2924;
+  background: #f7f8f5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background: #f7f8f5;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+h1,
+.navbar-brand {
+  font-family: Georgia, 'Times New Roman', serif;
+}
