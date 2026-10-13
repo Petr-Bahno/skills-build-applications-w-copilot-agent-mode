@@ -1,0 +1,23 @@
+.brand-logo {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+}
+
+.dashboard-link {
+  border-color: #e2e9e4;
+  transition: border-color 150ms ease, transform 150ms ease;
+}
+
+.dashboard-link:hover {
+  border-color: #198754;
+  transform: translateY(-2px);
+}
+
+.leaderboard-rank {
+  width: 2.75rem;
+  height: 2.75rem;
+  flex: 0 0 auto;
+  color: #146c43;
+  background: #d1e7dd;
+}
