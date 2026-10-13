@@ -49,7 +49,7 @@ async function startServer() {
   try {
     await connectDatabase();
     app.listen(port, '0.0.0.0', () => {
-      console.log(`OctoFit API listening at ${apiBaseUrl}`);
+      console.log(`OctoFit API listening on port ${port} (base URL: ${apiBaseUrl})`);
     });
   } catch (error) {
     console.error('Unable to start OctoFit API:', error);
